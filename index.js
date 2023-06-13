@@ -24,7 +24,7 @@ function calculatesFarePrice(start, destination) {
         return (distance - 400) * 0.02;
     } else if (distance > 2000 && distance <= 2500) {
         return 25;
-    } else {distance > 2500} {
+    } else {
         return 'cannot travel that far';
     }
   }
